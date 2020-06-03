@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* begin sidebar/navigatie */
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(73, 70, 70);
+    overflow-x: hidden;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+  } 
+  .home{
+      margin-top: 20px;
+  }
+ .sidenav a:hover{
+     color: rgb(235, 229, 229);
+     transition: .5s ease;
+ }
+.signOut{
+    margin-top: 210%;
+}
+.fa-home,
+.fa-heart,
+.fa-sign-out-alt{
+    margin-right: 10px;
+}
+  
+.sidenav input[type=text] {
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .sidenav img{
+width: 180px;
+height: auto;
+  }
+  /* einde sidebar/navigatie */
+
+
+
+
+
+  /* begin settings */
+  .settings{
+      position: absolute;
+      margin-left: 97%;
+      margin-top: -55px;
+  }
+  .settings .fa-cog{
+      font-size: 35px;
+      color: black;
+  }
+  .settings .fa-cog:hover{
+   color: rgb(39, 38, 38);
+   transition: .5s ease;
+}
+/* einde settings */
+
+
+/* begin sporten */
+.sport1 img{
+    width: 300px;
+    height: 300px;
+  
+}
+.info{
+    margin-top: -300px;
+    margin-left: 0px;
+    z-index: 2;
+  
+}
+.info h2{
+    color: white;
+    margin-top: 0px;
+    font-size: 35px;
+    z-index: 2;
+}
+.info img{
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+    z-index: 2;
+   
+    
+}
+.grid{
+    margin-left: 240px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    text-align: center;
+}
+/* einde sporten */
+  
+  
